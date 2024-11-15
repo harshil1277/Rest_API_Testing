@@ -1,0 +1,17 @@
+main_driver_500: 2
+InvalidDynamicObjectChecker_20x: 1
+Total Buckets: 3
+-------------
+main_driver_500 - Bug was reproduced - main_driver_500_1.txt
+Hash: main_driver_500_6a02eb07669ffd1aff1b71a0b5249d0c1ab27442
+GET /app/api/credentials/username/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\n\r\n
+--------------------------------------------------------------------------------
+main_driver_500 - Bug was reproduced - main_driver_500_2.txt
+Hash: main_driver_500_0314923eb8d927468eab044259414a8416ffced3
+GET /app/api/employees/username/fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\n\r\n
+--------------------------------------------------------------------------------
+InvalidDynamicObjectChecker_20x - Bug was reproduced - InvalidDynamicObjectChecker_20x_1.txt
+Hash: InvalidDynamicObjectChecker_20x_88b8fc05c79830603b55dfe29672d53e6bec86ee
+POST /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":fuzzstring,\n    "role":fuzzstring,\n    "username":fuzzstring}\r\n
+PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":_READER_DELIM_app_api_credentials_post_credentialId_READER_DELIM,\n    "enabled":_READER_DELIM_app_api_credentials_post_enabled_READER_DELIM,\n    "password":_READER_DELIM_app_api_credentials_post_password_READER_DELIM,\n    "role":_READER_DELIM_app_api_credentials_post_role_READER_DELIM,\n    "username":_READER_DELIM_app_api_credentials_post_username_READER_DELIM}\r\n
+--------------------------------------------------------------------------------

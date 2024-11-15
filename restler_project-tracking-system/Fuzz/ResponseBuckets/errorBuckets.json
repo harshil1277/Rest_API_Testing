@@ -1,0 +1,2762 @@
+{
+  "400": {
+    "1c0cb67d-647b-4056-bcbf-5855a85438fe": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/projects/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:27\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/projects/delete",
+            "query": "projectId=fuzzstring",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:21:47\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/projects",
+            "query": "projectId=fuzzstring",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:21:44\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/locations/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:21:08\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/locations/delete",
+            "query": "locationId=fuzzstring",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:20:35\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/locations",
+            "query": "locationId=fuzzstring",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:20:31\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/employees/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:20:07\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/employees/delete",
+            "query": "employeeId=fuzzstring",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:19:42\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/employees/data/manager-project-data/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:19:38\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/employees/data/employee-project-data/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "88\r\n{\n  \"msg\" : \"For input string: \\\"fuzzstring\\\"\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:19:35\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "2fbf02ca-e7a2-4a67-bb1f-7f94bd21a8df": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\n    \"endDate\":\"fuzzstring\",\n    \"projectId\":1,\n    \"startDate\":\"fuzzstring\",\n    \"status\":\"fuzzstring\",\n    \"title\":\"fuzzstring\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 2, column: 15] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:24\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\n    \"endDate\":\"fuzzstring\",\n    \"projectId\":1,\n    \"startDate\":\"dd-MM-yyyy\",\n    \"status\":\"fuzzstring\",\n    \"title\":\"fuzzstring\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 2, column: 15] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:22\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\n    \"endDate\":\"dd-MM-yyyy\",\n    \"projectId\":1,\n    \"startDate\":\"fuzzstring\",\n    \"status\":\"fuzzstring\",\n    \"title\":\"fuzzstring\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"dd-MM-yyyy\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'dd-MM-yyyy\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"dd-MM-yyyy\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'dd-MM-yyyy\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 2, column: 15] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:20\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"startDate\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "301\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 14] (through reference chain: com.pfa.pack.model.entity.Project[\\\"startDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:14\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"endDate\":\"fuzzstring\",\"projectId\":0,\"startDate\":\"fuzzstring\",\"status\":\"fuzzstring\",\"title\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:13\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"endDate\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:13\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"title\":\"fuzzstring\",\"endDate\":\"fuzzstring\",\"projectId\":0,\"startDate\":\"fuzzstring\",\"status\":\"fuzzstring\",\"title\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 33] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:12\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"status\":\"fuzzstring\",\"endDate\":\"fuzzstring\",\"projectId\":0,\"startDate\":\"fuzzstring\",\"status\":\"fuzzstring\",\"title\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 34] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:11\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"startDate\":\"fuzzstring\",\"endDate\":\"fuzzstring\",\"projectId\":0,\"startDate\":\"fuzzstring\",\"status\":\"fuzzstring\",\"title\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "301\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 14] (through reference chain: com.pfa.pack.model.entity.Project[\\\"startDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:11\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/projects/update",
+            "query": "",
+            "body": "{\"projectId\":0,\"endDate\":\"fuzzstring\",\"projectId\":0,\"startDate\":\"fuzzstring\",\"status\":\"fuzzstring\",\"title\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "2ff\r\n{\n  \"msg\" : \"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"fuzzstring\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \\'fuzzstring\\' could not be parsed at index 0\\\n at [Source: (PushbackInputStream); line: 1, column: 26] (through reference chain: com.pfa.pack.model.entity.Project[\\\"endDate\\\"])\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:22:10\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6a0af6a1-c624-4803-bd1f-cc2488735a3b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":0,\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:46\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{ \"fuzz\" : false }"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:46\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":false,\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:46\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"username\":0}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:45\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"username\":false}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:44\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:42\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:41\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:41\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"username\":\"fuzzstring\",\"password\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:40\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"password\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 400,
+            "codeDescription": "",
+            "content": "77\r\n{\n  \"msg\" : \"Bad credentials\",\n  \"throwable\" : null,\n  \"status\" : \"BAD_REQUEST\",\n  \"timestamp\" : \"15-11-202413:17:40\"\n}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  },
+  "405": {
+    "00b0060d-a4e4-424d-b4d6-31c72fc6c8a0": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"role\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "042a6b78-495a-4687-8bb0-f0dc0d7fecf0": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"role\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "08c46f08-fe05-49f8-afa9-d28553a6da18": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/employees/save",
+            "query": "",
+            "body": "{ \"fuzz\": false }\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "0c07a43c-9beb-4d12-bcc7-bfcda61d928f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":20,\"enabled\":[],\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "0f3e4bfb-d7b6-4d35-8713-4bc041843157": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{ \"fuzz\" : false }"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "176eeb43-0831-4d51-9928-b5efb7ca143a": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":\"$2a$10$7stRXsKqrKPxgy05I.Tc6eMrvEMpDFhWQRZaxlxyS2i/LB/Q2.xg6\",\"role\":\"0\",\"username\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "17b2fb59-fbf3-4794-91e6-a91a53cf0f3f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"role\":false}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "1b118be9-82b3-435e-a062-6be9c4486dec": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "\"fuzzstring\""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "21ca00a8-3c1a-4a05-9f6f-cb8972535bb5": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":\"$2a$10$.Kr3GUt3fu2gQf1ZHh0fxOiOIEa9x1DiakgSxCOEaFuyydAmorolG\",\"role\":{ \"fuzz\" : false },\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "230205a2-7d46-4bf9-b6d2-31301f81bc31": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "false"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "238f5792-83ab-49c6-b897-d8c68643f504": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "24433ece-5ebb-45dd-ba86-d8caef317ee0": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":29,\"enabled\":false,\"password\":\"0\",\"role\":\"0\",\"username\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "29a3d580-cfe0-4434-b463-d653a2c75d0d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"role\":false}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "2b1c9b98-3c24-4f10-90bb-e482d990d75f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":false,\"enabled\":false,\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "2d21299a-b793-4d63-a435-9ca70de7dcb1": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"enabled\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "2e887167-8f59-4107-bd6e-0a37a9e29d71": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"role\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "31dbeb4b-9404-4cc5-b3c1-3f06e3ab7768": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "[]"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "331b5c64-47b8-4a7c-beee-8047a1d9c77e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":29,\"enabled\":[],\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "347231ac-237f-4b4e-ad2e-3030d49401e9": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"role\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "36ccf4b2-fe02-42e9-8eff-3a9beaf4c34d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "36ecd24b-fef6-4354-abf3-7f00d25a6040": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":[],\"enabled\":false,\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "37a244cc-53bf-4315-9c46-678b5c8a7e45": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "false"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "38b5fa2e-a15b-4fa2-aa05-ecf07a0b57bc": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "[]"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "3a1c1960-dedf-433f-86e5-93dd7dc5768e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "0"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "3af51b7b-5ba5-4429-b7c7-8fcf2b0ea69e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":{ \"fuzz\" : false },\"enabled\":false,\"password\":\"$2a$10$.Kr3GUt3fu2gQf1ZHh0fxOiOIEa9x1DiakgSxCOEaFuyydAmorolG\",\"role\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "3ebaecd7-b798-4ff3-b2b3-9673863d1abc": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/employees/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "43aa3042-48c7-4630-9bdc-ca717c156bef": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":26,\"enabled\":false,\"password\":{ \"fuzz\" : false },\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "455df1d2-e7b9-4381-8476-e89cf428e252": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"enabled\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "45a0bbaa-a247-4070-8caf-6d2be77d0878": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":{ \"fuzz\" : false },\"role\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "476592f3-fe12-4785-a36b-60083dd95d91": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":29,\"enabled\":\"fuzzstring\",\"password\":\"0\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "47693b4d-b1e2-42b1-82c9-952bb6c51c5e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "4a897d94-af27-4f27-b258-f8838f2620eb": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"role\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "4cfe2297-d765-4995-9059-17a9beb18e19": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":20,\"enabled\":false,\"password\":[],\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "4e6cf890-b72d-440b-ad33-40b812d5ff1d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/locations",
+            "query": "",
+            "body": "{\"city\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "51e9f7f9-1d66-4312-bb5b-befb1be6c5b7": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":29,\"enabled\":false,\"password\":[],\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "53fe479b-1b5d-4423-9abb-33d62b3a423f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":{ \"fuzz\" : false },\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "561dd24f-259a-46b8-9698-3e78b083537d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "\"fuzzstring\""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "5677cb32-06c5-4f45-bce3-8cd33874bbcf": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":\"fuzzstring\",\"password\":\"$2a$10$g/drNUlIeEEIEksrsdSPle9aRlTRQs8hcyQQ7tzHX8mPoibJVfZdq\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "5dc1c309-c972-4701-952c-2dc1d2a8b31e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":[],\"enabled\":false,\"password\":\"$2a$10$kzvr1Lb0ZyOVI.IVvl0mb.Xr3FXbAFD9CTcklCH586SzilmnAPxYO\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "630e27ed-bf35-4f86-8ecd-6c1e314c9247": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":[],\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "64fb85dc-107e-44a6-94e2-37375e7af634": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"password\":\"$2a$10$.Kr3GUt3fu2gQf1ZHh0fxOiOIEa9x1DiakgSxCOEaFuyydAmorolG\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "65689c25-b056-4390-8495-5584341ca54d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":[],\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6852497b-9191-42a4-a9da-1ffdb79959d3": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"enabled\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6ad81481-2485-4e87-998d-b2ec84868c1b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"role\":0}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6c44f67a-7090-41b6-a3aa-9616461ed495": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "0"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6c958b33-45df-4df5-ad30-216e34d9770e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "DELETE",
+            "path": "/app/api/credentials/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6db26f47-a8ad-47f9-820d-dadb73df6d13": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":[],\"enabled\":false,\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "7480d256-3249-434c-a229-f9c1a18be52e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":{ \"fuzz\" : false },\"enabled\":false,\"password\":\"None\",\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "76ac289f-be79-40fd-b0b9-ec234ebfc434": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"role\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "802dda23-c4a4-4791-889b-197a5b802d17": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"enabled\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "805b527d-19f6-4378-a346-8089fb419a05": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":20,\"enabled\":false,\"password\":\"0\",\"role\":\"0\",\"username\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "806a094b-154b-4f74-a1f2-3066bf2379d6": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":\"fuzzstring\",\"enabled\":false,\"password\":\"0\",\"role\":\"0\",\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "829c3985-d244-463c-902d-6ab776299f85": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"password\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "82abbca5-f8bb-4fec-94e0-f95f2c4a92fc": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":\"fuzzstring\",\"enabled\":false,\"password\":\"0\",\"role\":\"0\",\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "8357c2bf-6abb-4b61-b33a-f964ec94fdad": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"role\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "836a8e53-3c65-4349-bdf7-6cefa577489b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"role\":false}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "87a42013-73c8-4c5d-b9e6-073c98e6dadf": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":false,\"enabled\":false,\"password\":\"None\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "87cf804c-3c5b-400d-83ac-27f76e2cf81d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":26,\"enabled\":{ \"fuzz\" : false },\"password\":\"None\",\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "8802357f-ef68-4650-ab1e-b94f4aaf968a": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "[]"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "8de35009-e8bd-4350-9ec6-317223392f99": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":17,\"enabled\":false,\"password\":\"None\",\"role\":\"None\",\"username\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "94081a92-00e5-4bda-ac48-66e6ba33a6fe": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":26,\"enabled\":false,\"password\":\"None\",\"role\":{ \"fuzz\" : false },\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "94bcb189-04da-4dbb-9097-ea2713f8fd58": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":{ \"fuzz\" : false },\"enabled\":false,\"password\":\"None\",\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "96a0f766-2a23-4229-8c11-9d18e4d4e9c3": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/employees/update",
+            "query": "",
+            "body": "{ \"fuzz\": false }\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "98f6bf10-84fe-4fa6-9529-9796d8367fc8": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "false"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "99b5f983-7c10-4bec-98ce-05c84cf7e202": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":[],\"password\":\"$2a$10$kzvr1Lb0ZyOVI.IVvl0mb.Xr3FXbAFD9CTcklCH586SzilmnAPxYO\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "9b476a27-17ed-489a-bb57-380ad6348cca": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "[]"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "9ea15d08-e0c8-4a79-b25b-4be4e429774c": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"role\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "a0d0e523-91b1-46b9-a784-62bc28fcff1e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":\"$2a$10$.Kr3GUt3fu2gQf1ZHh0fxOiOIEa9x1DiakgSxCOEaFuyydAmorolG\",\"role\":\"fuzzstring\",\"username\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "aa46dcbc-5e9e-403c-83da-4c3f952c0649": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"enabled\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "aed041bf-71b5-4f10-82f0-abdb128679d5": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":20,\"enabled\":false,\"password\":\"0\",\"role\":[],\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b09f8940-91ab-482d-9fd2-ccdd8d45e321": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":false,\"enabled\":false,\"password\":\"$2a$10$kzvr1Lb0ZyOVI.IVvl0mb.Xr3FXbAFD9CTcklCH586SzilmnAPxYO\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b0b3150c-27e1-4042-bf61-16433dc2a7bd": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":17,\"enabled\":false,\"password\":{ \"fuzz\" : false },\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b0ddcaf5-d8ba-4137-a4bc-73bdfe2a056e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":29,\"enabled\":false,\"password\":\"0\",\"role\":[],\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b1d89051-10d7-46e1-bf94-5de569a4287c": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "\"fuzzstring\""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b1f73498-1283-48ae-ae15-93d788afaa30": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"enabled\":false}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "b9e19d99-a1e9-4151-8930-5e4ced290b2c": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"role\":0}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "bbbb99b7-d0be-4451-9a13-8e1e216f74a4": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{ \"fuzz\" : false }"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "bcdcf0f4-1bee-4420-8a94-b08353640289": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "bdba0775-def4-4ebe-ae7c-3f2f223348ca": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/employees",
+            "query": "",
+            "body": "{ \"fuzz\": false }\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "c17e4d95-034a-49da-98ca-a4849c16610f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"password\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "c2467547-683d-4ece-99f8-c72662148792": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "false"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "c3c7fafe-5881-4bd3-90d0-36fcae99e7b1": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"role\":0}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "cb0ebae9-fb0a-4c1e-a7cb-125d831744c7": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{ \"fuzz\" : false }"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "cc60cb26-c6a9-4783-87af-aef10f26feab": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "\"fuzzstring\""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "d05b4e62-de66-4bf2-bb59-902ebb9bd6a4": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"username\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "d444b6ff-3927-4dea-9418-93eecd22c1c0": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":17}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "e37bfac8-bbcd-4f4a-a874-71f1f8bf8b91": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":{ \"fuzz\" : false },\"password\":\"$2a$10$.Kr3GUt3fu2gQf1ZHh0fxOiOIEa9x1DiakgSxCOEaFuyydAmorolG\",\"role\":\"fuzzstring\",\"username\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "e3de448d-9d99-40fe-9a75-dcf88efdc494": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":26,\"enabled\":false,\"password\":\"None\",\"role\":\"None\",\"username\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "e74051d3-47d2-4675-8f22-aff10c5c4a7d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":20,\"enabled\":\"fuzzstring\",\"password\":\"0\",\"role\":\"0\",\"username\":\"false\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "e753acfb-07f5-4d43-9bad-f3ef80e06a1a": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":33,\"enabled\":false,\"password\":\"$2a$10$RBzziDfXhZKuLHZ9Y3B0yuUfw/McqHKqK2XM6icCBujiDdAxHPlmu\",\"role\":[],\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "eb9a5448-37da-43a5-9ca2-8253d594719e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"credentialId\":\"fuzzstring\",\"enabled\":false,\"password\":\"$2a$10$7stRXsKqrKPxgy05I.Tc6eMrvEMpDFhWQRZaxlxyS2i/LB/Q2.xg6\",\"role\":\"0\",\"username\":\"0\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "ee26cae1-ee99-46c4-a617-308bbd9d996c": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":17,\"enabled\":false,\"password\":\"None\",\"role\":{ \"fuzz\" : false },\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "ee84a61a-2e8f-4582-b2dd-dd6466995540": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/employees",
+            "query": "",
+            "body": "{ \"fuzz\": false }\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f2224127-f3ff-4179-b674-203a9c0b26a7": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "{\"role\":\"fuzzstring\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f5235c6a-8b85-44af-a456-f80a2cda5cfd": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "{\"password\":\"fuzzstring\",\"username\":{ \"fuzz\" : false }}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f82b261d-73e4-4d3c-b531-bd011f302c8b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"credentialId\":17,\"enabled\":{ \"fuzz\" : false },\"password\":\"None\",\"role\":\"None\",\"username\":\"None\"}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f831fd52-a98a-4626-ad85-e8727ad44cbd": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/authenticate",
+            "query": "",
+            "body": "0"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "fc41d47b-237e-4b90-9fbf-755891f5d3ba": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/app/api/credentials/update",
+            "query": "",
+            "body": "0"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "fd2c3bec-d6b7-4b93-9620-1f9e3cea28ca": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials/save",
+            "query": "",
+            "body": "{\"credentialId\":26}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "ffc04127-d587-475b-b691-db496940944b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/app/api/credentials",
+            "query": "",
+            "body": "{\"enabled\":[]}"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 405,
+            "codeDescription": "",
+            "content": "",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  },
+  "500": {
+    "0ada4c35-23ce-4d1c-bef6-adb61bb3a022": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/employees/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "",
+            "content": "344\r\n<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Gateway error</title>\n\t<div>\n\t\t<link rel=\"stylesheet\"\n\t\t\thref=\"https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css\"\n\t\t\tintegrity=\"sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK\"\n\t\t\tcrossorigin=\"anonymous\" />\n\t</div>\n</head>\n\n<body>\n\t<br><br><br><br><br>\n\t\t\n\t<div class=\\'container container-fluid\\'>\n\t\t\n\t\t<div class=\"jumbotron\">\n\t\t\t<h1 class=\"display-3\">Error 500, Gateway error!</h1>\n\t\t\t<p class=\"lead text-danger\"><i>The server encountered an unexpected condition that <strong>prevented</strong> it from fulfilling the request</i></p>\n\t\t\t<hr class=\"my-4\">\n\t\t\t<p class=\"lead\">\n\t\t\t\t<a class=\"btn btn-info btn-lg\" href=\"/\" role=\"button\">Back Home ?</a>\n\t\t\t</p>\n\t\t</div>\n\t\t\n\t</div>\n\t\n\t<br><br><br><br><br>\n\t\n</body>\n</html>\n\n\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/employees/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "",
+            "content": "344\r\n<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Gateway error</title>\n\t<div>\n\t\t<link rel=\"stylesheet\"\n\t\t\thref=\"https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css\"\n\t\t\tintegrity=\"sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK\"\n\t\t\tcrossorigin=\"anonymous\" />\n\t</div>\n</head>\n\n<body>\n\t<br><br><br><br><br>\n\t\t\n\t<div class=\\'container container-fluid\\'>\n\t\t\n\t\t<div class=\"jumbotron\">\n\t\t\t<h1 class=\"display-3\">Error 500, Gateway error!</h1>\n\t\t\t<p class=\"lead text-danger\"><i>The server encountered an unexpected condition that <strong>prevented</strong> it from fulfilling the request</i></p>\n\t\t\t<hr class=\"my-4\">\n\t\t\t<p class=\"lead\">\n\t\t\t\t<a class=\"btn btn-info btn-lg\" href=\"/\" role=\"button\">Back Home ?</a>\n\t\t\t</p>\n\t\t</div>\n\t\t\n\t</div>\n\t\n\t<br><br><br><br><br>\n\t\n</body>\n</html>\n\n\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/credentials/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "",
+            "content": "344\r\n<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Gateway error</title>\n\t<div>\n\t\t<link rel=\"stylesheet\"\n\t\t\thref=\"https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css\"\n\t\t\tintegrity=\"sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK\"\n\t\t\tcrossorigin=\"anonymous\" />\n\t</div>\n</head>\n\n<body>\n\t<br><br><br><br><br>\n\t\t\n\t<div class=\\'container container-fluid\\'>\n\t\t\n\t\t<div class=\"jumbotron\">\n\t\t\t<h1 class=\"display-3\">Error 500, Gateway error!</h1>\n\t\t\t<p class=\"lead text-danger\"><i>The server encountered an unexpected condition that <strong>prevented</strong> it from fulfilling the request</i></p>\n\t\t\t<hr class=\"my-4\">\n\t\t\t<p class=\"lead\">\n\t\t\t\t<a class=\"btn btn-info btn-lg\" href=\"/\" role=\"button\">Back Home ?</a>\n\t\t\t</p>\n\t\t</div>\n\t\t\n\t</div>\n\t\n\t<br><br><br><br><br>\n\t\n</body>\n</html>\n\n\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/app/api/credentials/username/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "",
+            "content": "344\r\n<!DOCTYPE html>\n\n<html>\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Gateway error</title>\n\t<div>\n\t\t<link rel=\"stylesheet\"\n\t\t\thref=\"https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css\"\n\t\t\tintegrity=\"sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK\"\n\t\t\tcrossorigin=\"anonymous\" />\n\t</div>\n</head>\n\n<body>\n\t<br><br><br><br><br>\n\t\t\n\t<div class=\\'container container-fluid\\'>\n\t\t\n\t\t<div class=\"jumbotron\">\n\t\t\t<h1 class=\"display-3\">Error 500, Gateway error!</h1>\n\t\t\t<p class=\"lead text-danger\"><i>The server encountered an unexpected condition that <strong>prevented</strong> it from fulfilling the request</i></p>\n\t\t\t<hr class=\"my-4\">\n\t\t\t<p class=\"lead\">\n\t\t\t\t<a class=\"btn btn-info btn-lg\" href=\"/\" role=\"button\">Back Home ?</a>\n\t\t\t</p>\n\t\t</div>\n\t\t\n\t</div>\n\t\n\t<br><br><br><br><br>\n\t\n</body>\n</html>\n\n\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      }
+    ]
+  }
+}

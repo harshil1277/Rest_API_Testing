@@ -1,0 +1,23 @@
+{
+  "SwaggerSpecFilePath": [
+    "/home/harshil/Downloads/REST_Go-v0.4/codingsoo-REST_Go-781cc3a/doc/project_swagger.json"
+  ],
+  "GrammarOutputDirectoryPath": "/home/harshil/Downloads/REST_Go-v0.4/codingsoo-REST_Go-781cc3a/restler_project-tracking-system/Compile",
+  "CustomDictionaryFilePath": "/home/harshil/Downloads/REST_Go-v0.4/codingsoo-REST_Go-781cc3a/restler_project-tracking-system/Compile/defaultDict.json",
+  "IncludeOptionalParameters": true,
+  "UseHeaderExamples": true,
+  "UsePathExamples": false,
+  "UseQueryExamples": true,
+  "UseBodyExamples": true,
+  "UseAllExamplePayloads": false,
+  "DiscoverExamples": false,
+  "ExamplesDirectory": "",
+  "DataFuzzing": true,
+  "ReadOnlyFuzz": false,
+  "ResolveQueryDependencies": true,
+  "ResolveBodyDependencies": true,
+  "ResolveHeaderDependencies": false,
+  "UseRefreshableToken": true,
+  "AllowGetProducers": false,
+  "TrackFuzzedParameterNames": false
+}

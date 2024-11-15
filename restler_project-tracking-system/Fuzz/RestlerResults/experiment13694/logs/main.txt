@@ -1,0 +1,111 @@
+Setting fuzzing schemes: bfs-fast
+2024-11-15 13:17:24.813: Going to fuzz a set with 60 requests
+2024-11-15 13:17:24.813: Request-0: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-1: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-2: Value Combinations: 2
+2024-11-15 13:17:24.813: Request-3: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-4: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-5: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-6: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-7: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-8: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-9: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-10: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-11: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-12: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-13: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-14: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-15: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-16: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-17: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-18: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-19: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-20: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-21: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-22: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-23: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-24: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-25: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-26: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-27: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-28: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-29: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-30: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-31: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-32: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-33: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-34: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-35: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-36: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-37: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-38: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-39: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-40: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-41: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-42: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-43: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-44: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-45: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-46: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-47: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-48: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-49: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-50: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-51: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-52: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-53: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-54: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-55: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-56: Value Combinations: 1
+2024-11-15 13:17:24.813: Request-57: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-58: Value Combinations: 4
+2024-11-15 13:17:24.813: Request-59: Value Combinations: 1
+2024-11-15 13:17:24.813: Avg. Value Combinations per Request: 1.3166666666666667
+2024-11-15 13:17:24.813: Median Value Combinations per Request: 1.0
+2024-11-15 13:17:24.813: Min Value Combinations per Request: 1
+2024-11-15 13:17:24.813: Max Value Combinations per Request: 4
+2024-11-15 13:17:24.813: Total dependencies: 131
+
+2024-11-15 13:17:24.816: Generation: 1 / Sequences Collection Size: 46 
+(After bfs-fast Extend)
+
+2024-11-15 13:22:30.155: Generation: 1 / Sequences Collection Size: 12 
+(After bfs-fast Render)
+
+2024-11-15 13:22:30.155: Final Swagger spec coverage: 12 / 60
+2024-11-15 13:22:30.155: Rendered requests: 46 / 60
+2024-11-15 13:22:30.155: Rendered requests with "valid" status codes: 12 / 46
+2024-11-15 13:22:30.155: Num fully valid requests (no resource creation failures): 12
+2024-11-15 13:22:30.155: Num requests not rendered due to invalid sequence re-renders: 0
+2024-11-15 13:22:30.155: Num invalid requests caused by failed resource creations: 0
+2024-11-15 13:22:30.155: Total Creations of Dyn Objects: 170
+2024-11-15 13:22:30.155: Total Requests Sent: {'gc': 0, 'main_driver': 55, 'LeakageRuleChecker': 20, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 0, 'PayloadBodyChecker': 342, 'ExamplesChecker': 0}
+2024-11-15 13:22:30.155: Bug Buckets: {'main_driver_500': 2}
+2024-11-15 13:22:30.174: Generation: 2 / Sequences Collection Size: 51 
+(After bfs-fast Extend)
+
+Timed out...
+2024-11-15 13:24:09.967: Generation: 2 / Sequences Collection Size: 54 
+(After bfs-fast Render)
+
+2024-11-15 13:24:09.967: Final Swagger spec coverage: 13 / 60
+2024-11-15 13:24:09.967: Rendered requests: 47 / 60
+2024-11-15 13:24:09.967: Rendered requests with "valid" status codes: 13 / 47
+2024-11-15 13:24:09.967: Num fully valid requests (no resource creation failures): 13
+2024-11-15 13:24:09.967: Num requests not rendered due to invalid sequence re-renders: 0
+2024-11-15 13:24:09.967: Num invalid requests caused by failed resource creations: 0
+2024-11-15 13:24:09.967: Total Creations of Dyn Objects: 190
+2024-11-15 13:24:09.967: Total Requests Sent: {'gc': 0, 'main_driver': 63, 'LeakageRuleChecker': 20, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 156, 'PayloadBodyChecker': 342, 'ExamplesChecker': 0}
+2024-11-15 13:24:09.967: Bug Buckets: {'InvalidDynamicObjectChecker_20x': 1, 'main_driver_500': 2}
+
+Testing completed -- below are the final stats:
+
+2024-11-15 13:24:09.987: Final Swagger spec coverage: 13 / 60
+2024-11-15 13:24:09.987: Rendered requests: 47 / 60
+2024-11-15 13:24:09.987: Rendered requests with "valid" status codes: 13 / 47
+2024-11-15 13:24:09.987: Num fully valid requests (no resource creation failures): 13
+2024-11-15 13:24:09.987: Num requests not rendered due to invalid sequence re-renders: 0
+2024-11-15 13:24:09.987: Num invalid requests caused by failed resource creations: 0
+2024-11-15 13:24:09.987: Total Creations of Dyn Objects: 190
+2024-11-15 13:24:09.987: Total Requests Sent: {'gc': 0, 'main_driver': 63, 'LeakageRuleChecker': 20, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 156, 'PayloadBodyChecker': 342, 'ExamplesChecker': 0}
+2024-11-15 13:24:09.987: Bug Buckets: {'InvalidDynamicObjectChecker_20x': 1, 'main_driver_500': 2}

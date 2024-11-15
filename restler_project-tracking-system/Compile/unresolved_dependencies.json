@@ -1,0 +1,1244 @@
+{
+  "/app/api/assignments": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitEmpDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitMgrDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/credential"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department/location"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/email"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/firstName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/hiredate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/job"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/lastName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/manager"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/phone"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/salary"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "project"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    },
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/credential"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department/location"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/email"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/firstName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/hiredate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/job"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/lastName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/manager"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/phone"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/salary"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "project"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/data/project-commit/{employeeId}/{projectId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/data/project-commit/{employeeId}/{projectId}/{commitDate}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/data/project-commit/{projectId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/delete/{employeeId}/{projectId}/{commitDate}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/save": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitEmpDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitMgrDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/credential"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department/location"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/email"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/firstName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/hiredate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/job"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/lastName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/manager"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/phone"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/salary"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "project"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/update": {
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitEmpDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitMgrDesc"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/credential"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/department/location"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/email"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/firstName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/hiredate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/job"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/lastName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/manager"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/phone"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employee/salary"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "project"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/{employeeId}/{projectId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/assignments/{employeeId}/{projectId}/{commitDate}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    },
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/authenticate": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "password"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "password"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "credentialId"
+        }
+      ]
+    },
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "credentialId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "enabled"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "password"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "role"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials/delete": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "credentialId"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials/save": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "credentialId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "enabled"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "password"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "role"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials/update": {
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "credentialId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "enabled"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "password"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "role"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials/username/{username}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    },
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/credentials/{id}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "id"
+        }
+      ]
+    }
+  },
+  "/app/api/departments": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        }
+      ]
+    },
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "location"
+        }
+      ]
+    },
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "location"
+        }
+      ]
+    }
+  },
+  "/app/api/departments/delete": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        }
+      ]
+    }
+  },
+  "/app/api/departments/save": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "location"
+        }
+      ]
+    }
+  },
+  "/app/api/departments/update": {
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentName"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "location"
+        }
+      ]
+    }
+  },
+  "/app/api/departments/{id}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "id"
+        }
+      ]
+    }
+  },
+  "/app/api/employees": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/data/department/{departmentId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "departmentId"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/data/employee-project-data/{employeeId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/data/manager-project-data/{employeeId}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/delete": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "employeeId"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/username/{username}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    },
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "username"
+        }
+      ]
+    }
+  },
+  "/app/api/employees/{id}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "id"
+        }
+      ]
+    }
+  },
+  "/app/api/locations": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "locationId"
+        }
+      ]
+    },
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "adr"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "city"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "locationId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "postalCode"
+        }
+      ]
+    }
+  },
+  "/app/api/locations/delete": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "locationId"
+        }
+      ]
+    }
+  },
+  "/app/api/locations/save": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "adr"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "city"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "locationId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "postalCode"
+        }
+      ]
+    }
+  },
+  "/app/api/locations/update": {
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "adr"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "city"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "locationId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "postalCode"
+        }
+      ]
+    }
+  },
+  "/app/api/locations/{id}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "id"
+        }
+      ]
+    }
+  },
+  "/app/api/projects": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    },
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "endDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "startDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "status"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "title"
+        }
+      ]
+    }
+  },
+  "/app/api/projects/delete": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        }
+      ]
+    }
+  },
+  "/app/api/projects/save": {
+    "POST": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "endDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "startDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "status"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "title"
+        }
+      ]
+    }
+  },
+  "/app/api/projects/update": {
+    "PUT": {
+      "Body": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "endDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "projectId"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "startDate"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "status"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "title"
+        }
+      ]
+    }
+  },
+  "/app/api/projects/{id}": {
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "id"
+        }
+      ]
+    }
+  }
+}

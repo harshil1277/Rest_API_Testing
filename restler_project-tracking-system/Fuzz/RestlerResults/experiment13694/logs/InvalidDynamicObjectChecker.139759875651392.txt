@@ -1,0 +1,297 @@
+
+Sending invalid request(s):
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring?injected_query_string=123"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring?injected_query_string=123",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring?injected_query_string=123",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true?injected_query_string=123,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1?injected_query_string=123,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring/?/"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/?/"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/?/",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/?/",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/?/,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/?/,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring??"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring??"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring??",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring??",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true??,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1??,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring/fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring/fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring/fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true/true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1/1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"{}",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"{}",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"{}",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"{}",\n    "role":"{}",\n    "username":"{}"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"{}"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"{}"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"{}",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"{}",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"{}",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"{}",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"{}",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":true,\n    "password":"{}",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+
+Suspect sequence: 200
+POST /app/api/credentials
+PUT /app/api/credentials
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":1,\n    "enabled":{},\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
+'PUT /app/api/credentials HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:50118\r\nContent-Type: application/json\r\n\r\n{\n    "credentialId":{},\n    "enabled":true,\n    "password":"fuzzstring",\n    "role":"fuzzstring",\n    "username":"fuzzstring"}\r\n'
